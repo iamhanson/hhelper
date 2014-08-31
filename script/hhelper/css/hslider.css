@@ -1,0 +1,72 @@
+body {
+	text-align: center;
+}
+ul, li, img {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+/*====滚动图片====*/
+.h_slider_wrap {
+	position: relative;
+	margin: auto;
+	margin-top:100px;
+	overflow: hidden;
+	width: 500px;
+	height: 300px;
+}
+.h_pictures li {
+	float: left;
+}
+.h_pictures {
+	width: 1000px;
+}
+.h_switcher {
+	position: absolute;
+	bottom: 0px;
+	left:0px;
+	height: 40px;
+	width: 500px;
+	background: #333;
+	filter:alpha(Opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+}
+.title{
+	float: right;
+	height:35px;
+	width:190px;
+	line-height:40px;
+	color:#fff;
+	text-align:left;
+	text-indent:7px;
+	overflow: hidden;
+	font-weight:bold;
+	font-size:14px;
+	font-family:"微软雅黑";
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.h_curlocation {
+	float: right;
+	margin-right:10px;
+	width: 500px;
+}
+.h_curlocation li{
+	float:right;
+	margin-left:10px;
+	margin-top:9px;
+	width:21px;
+	height:21px;
+	background:#000;
+	border:solid 1px lightblue;
+	border-radius:30px;
+	color:#ccc;
+	font-weight: bold;
+	line-height: 21px;
+	cursor: pointer;
+}
+li.h_switch_on_hover,li.h_switch_on_cur{
+	background:#ffffff;
+	color:#000000;
+}

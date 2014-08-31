@@ -1,0 +1,50 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+ul, li, img {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+.hgallery_photo{
+	background:#CCCCCC;
+}
+.hgallery{
+	margin-top:7px;
+}
+.hg_switch {
+	display: block;
+	float: left;
+	width: 15px;
+	cursor: pointer;
+}
+.hg_prev {
+	margin-right: 10px;
+}
+.hg_next {
+	margin-left: 10px;
+}
+.hg_items {
+	position: relative;
+	overflow: hidden;
+	float: left;
+}
+.h_gallery_item {
+	position: absolute;
+	left: 0px;
+}
+.h_gallery_item li.first {
+	margin-left: 0px;
+}
+.h_gallery_item li {
+	overflow: hidden;
+	margin-left: 10px;
+	float: left;
+	cursor: pointer;
+}
+.h_gallery_item img {
+	height: inherit;
+	width: inherit;
+}
