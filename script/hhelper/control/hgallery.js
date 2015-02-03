@@ -1,7 +1,7 @@
 /**
  * hgallery插件
  * @author Huihan/Huihan2
- * @email huihan2@iflytek.com
+
  */
 (function($) {
 	//设置全局变量
