@@ -1,6 +1,6 @@
 /**
  * @author huihan huihan2
- * @email 237905173@qq.com huihan2@iflytek.com
+ * @email 237905173@qq.com 
  */
 (function($) { 
 	globelVar: {
